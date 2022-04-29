@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.centralizado {
+    display: flex;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.escondido {
+    display: none;
+}
+
+header {
+    width: 100%;
+    height: 89px;
+    background: #404EED;
+}
+
+header > img {
+    margin-left: 80px;
+}
+
+.container {
+    justify-content: space-between;
+    font-family: 'Roboto';
+}
+
+.esquerda {
+    flex-direction: column;
+    justify-content: start;
+    margin: auto;
+    width: 400px;
+    height: 706.36px;
+    position: relative;
+}
+
+.esquerda > div {
+    margin-bottom: 40px;
+}
+
+.esquerda > div > p {
+    font-size: 18px;
+     margin-bottom: 9px;
+}
+
+.imagens {
+    justify-content: space-between;
+    padding: 5px;
+    width: auto;
+}
+
+.imagens > .tipo {
+    background: #F2F2F2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.modelo > .imagens > span > img {
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    width: 80px;
+    height: 80px;
+}
+
+.gola > .imagens > span > img {
+    position: absolute;
+    top: 20%;
+    right: 11%;
+    width: 80px;
+    height: 55px;
+}
+
+.tecido > .imagens > span > img {
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    width: 60px;
+    height: 60px;
+}
+
+.imagens > span > p {
+    margin-top: 110px;
+   
+    text-align: center;
+    font-size: 16px;
+}
+
+.url-imagem  {
+    position: absolute;
+    bottom: 8%;
+}
+
+.url-imagem > input {
+    width: 390px;
+    height: 40px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 10px;
+}
+.url-imagem > input::placeholder {
+    padding-left: 15px;
+}
+
+.esquerda > button {
+    position: absolute;
+    bottom: 5%; 
+    width: 390px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #FCFCFC;
+    font-size: 20px;
+
+}
+
+.selecionado {
+    border: 4px solid #404EED;
+}
+
+.cinza {
+    background-color: #C4C4C4;
+}
+
+.azul {
+    background-color: #404EED;
+}
+
+.direita {
+    width: 670.49px;
+    height: 785px;
+    background: #404EED;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 342px;
+    background-color: #f2f2f2;
+    font-family: 'Roboto';
+}
+
+footer > .pedido {
+    height: 235px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
