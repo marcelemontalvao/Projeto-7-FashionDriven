@@ -20,15 +20,15 @@
                 <div class="modelo">
                     <p>Escolha o modelo</p>
                     <div class="imagens flex">
-                        <span class="tipo" onclick="escolherModelo(this)">
+                        <span class="tipo t-shirt" onclick="escolherModelo(this) ">
                             <img src="/assets/tshirt.png">
                             <p>T-shirt</p>
                         </span>
-                        <span class="tipo" onclick="escolherModelo(this)">
+                        <span class="tipo top-tank" onclick="escolherModelo(this)">
                             <img src="/assets/Camiseta.png">
                             <p>Camiseta</p>
                         </span>
-                        <span class="tipo" onclick="escolherModelo(this)">
+                        <span class="tipo long" onclick="escolherModelo(this)">
                             <img src="/assets/Mangalonga.png">
                             <p>Manga longa</p>
                         </span>  
@@ -38,33 +38,30 @@
                 <div class="gola">  
                     <p>Escolha a gola</p>
                     <div class="imagens flex">
-                        <span class="tipo" onclick="escolherGola(this)">
+                        <span class="tipo v-neck" onclick="escolherGola(this)">
                             <img src="/assets/GolaV.png">
                             <p>Gola V</p>
                         </span>
-                        <span class="tipo" onclick="escolherGola(this)"> 
+                        <span class="tipo round" onclick="escolherGola(this)"> 
                             <img src="/assets/GolaRedonda.png">
                             <p>Gola Redonda</p>
                         </span>
                         
-                        <span class="tipo" onclick="escolherGola(this)">
+                        <span class="tipo polo" onclick="escolherGola(this)">
                             <img src="/assets/GolaPolo.png">
                             <p>Gola polo</p>
-                        </span>
-                        
+                        </span> 
                     </div>                  
-                    
                 </div>
                   
                 <div class="tecido">
                     <p>Escolha o tecido</p>
                     <div class="imagens flex">
-                        <span class="tipo" onclick="escolherTecido(this)">  <img src="/assets/Seda.png">
+                        <span class="tipo silk" onclick="escolherTecido(this)">  <img src="/assets/Seda.png">
                             <p>Seda</p></span>
-                        <span class="tipo" onclick="escolherTecido(this)"> <img src="/assets/Algodão.png">
-                        
+                        <span class="tipo cotton" onclick="escolherTecido(this)"> <img src="/assets/Algodão.png">
                             <p>Algodão</p></span>
-                        <span class="tipo" onclick="escolherTecido(this)"> <img src="/assets/Poliester.png"> 
+                        <span class="tipo polyester" onclick="escolherTecido(this)"> <img src="/assets/Poliester.png"> 
                             <p>Poliéster</p></span>
                     </div>
                 </div>
@@ -72,17 +69,19 @@
                     <p>Imagem de referência</p>
                     <input type="text" placeholder="Insira o link">
                 </div>
-                <button class="cinza">Confirmar pedido</button>
+                <button class="cinza" onclick="confirmarPedido()">Confirmar pedido</button>
             </div>
         
             <div class="direita centralizado">
                 <img src="/assets/ilustração.png">
             </div>
     </div>
-    <footer>
+    <footer >
         <p>Ultimos pedidos</p>
-        <div class="pedido"></div>
+        <div class="centralizado"> 
+        </div>
     </footer>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="scripts.js"></script>
 </body>
 </html>

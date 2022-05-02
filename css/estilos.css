@@ -31,10 +31,9 @@
     cursor: pointer;
 }
 
-
 header {
     width: 100%;
-    height: 89px;
+    height: 89px; 
     background: #404EED;
 }
 
@@ -43,6 +42,7 @@ header > img {
 }
 
 .container {
+    width: 100%;
     justify-content: space-between;
     font-family: 'Roboto';
 }
@@ -135,10 +135,7 @@ header > img {
     border-radius: 10px;
     color: #FCFCFC;
     font-size: 20px;
-
 }
-
-
 
 .direita {
     width: 670.49px;
@@ -149,15 +146,52 @@ header > img {
 
 footer {
     width: 100%;
-    height: 342px;
+    height: 100%;
     background-color: #f2f2f2;
+}
+
+footer > p {
+    font-family: 'Roboto';
+    padding-top: 30px;
+    padding-left: 122px;
+    font-size: 24px;
+    color: #232323;
+}
+
+footer > .centralizado { 
+    margin-left: 200px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    width: 1089px;
+}
+
+footer > .centralizado > div {  
+    width: 200px; 
+    height: 236px;
+    background: #FFFFFF; 
+    border-radius: 10px;
+    margin-left: 16px; 
+    margin-bottom: 16px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+footer > .centralizado > div > img {  
+   justify-content: center;
+   align-items: center;
+   width: 180px;
+   height: 180px;
+   margin-top: 15px;
+   margin-left: 10px;
+}
+
+footer > .centralizado > div > p {
+    text-align: center;
+    margin-top: 8px;
     font-family: 'Roboto';
 }
 
-footer > .pedido {
-    height: 235px;
-    width: 200px;
-    border-radius: 10px;
+footer > .centralizado > div > p > span {
+ font-weight: bold;
 }
-
 
